@@ -17,13 +17,13 @@ import Rally
 env = 'RALLY'
 run_stat = 'S'
 
-server = 'seigwprally01.corp.seic.com'
-user = 'swpqlikview@seic.com'
-password = 'SWPql1kv13w'
-workspace = 'SEI Investments'
-project = 'Portfolio Backlog'
+server = 'hostname.domain.com'
+user = 'pjoshi'
+password = 'password'
+workspace = 'Default worksapce'
+project = 'Sample Project 1'
 
-PROJECTS = ['Portfolio Backlog', 'Retired Teams']
+PROJECTS = ['Sample Project 1', 'Sample Project 2']
 
 info = 'INFO'
 warn = 'WARNING'
@@ -32,7 +32,7 @@ flag_status = 'Y'
 stag = 'STAGING AREA'
 target = 'TARGET AREA'
 
-db = {'usr': 'BMR', 'pwd': 'BMRDEV123', 'host': 'GWPE05.GWPDEV.SEIC.COM', 'port': '1521', 'svc': 'DBDM01.SEIC.COM'}
+db = {'usr': 'usr123', 'pwd': 'pwd123', 'host': 'host123', 'port': '1521', 'svc': 'service'}
 db_usr, db_pwd, db_host, db_port, db_service = db['usr'], db['pwd'], db['host'], db['port'], db['svc']
 db_con_str = str(db_usr) + '/' + str(db_pwd) + '@' + str(db_host) + ':' + str(db_port) + '/' + str(db_service)
 
